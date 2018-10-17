@@ -3,6 +3,8 @@ const mongoose = require('mongoose');
 const requireDir = require('require-dir');
 //iniciando o app
 const app = express();
+//permite enviar informações em json
+app.use(express.json());
 
 //iniciando o DB
 
